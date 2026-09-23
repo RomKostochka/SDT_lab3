@@ -1,0 +1,27 @@
+{
+    "name": "code-generator",
+    "displayName": "Code Generator",
+    "description": "Генератор конструкций C++",
+    "version": "0.0.1",
+    "engines": {
+    "vscode": "^1.85.0"
+},
+
+    "main": "./out/extension.js",
+
+    "contributes": {
+        "commands": [
+            {
+                "command": "codeGenerator.generate",
+                "title": "Generate C++ Code"
+            }
+        ],
+
+        "keybindings": [
+            {
+                "command": "codeGenerator.generate",
+                "key": "ctrl+1"
+            }
+        ]
+    }
+}
