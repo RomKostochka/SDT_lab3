@@ -3,6 +3,10 @@
     "displayName": "Code Generator",
     "description": "Генератор конструкций C++",
     "version": "0.0.1",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/RomKostochka/SDT_lab3.git"
+},
     "engines": {
     "vscode": "^1.85.0"
 },
